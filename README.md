@@ -14,7 +14,7 @@ E-commerce de electrodomésticos desarrollado con el fin de generar ventas a dif
 - [Javier Villalba](https://github.com/javiervillalbaf): Desarrollador Front-end, estudiante de sistemas en la Universidad Nacional de General Sarmiento y de programación Full-stack en Digital House.
 - [Federico Torres](https://github.com/fedenn): Joven estudiante de programacion en la Universidad Nacional de Hurlingam y Digital House.
 - [Belen Toranzo](https://github.com/belutoranzo)
-- [Lautaro Villagrán](#)
+- [Lautaro Villagrán](https://github.com/lautaro0804)
 - [Gabriela Ayala](#)
 
 ## Sitios de referencia
