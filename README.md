@@ -2,7 +2,7 @@
 
 ## Sobre este proyecto
 
-E-commerce de electrodomésticos desarrollado con el fin de generar ventas a diferentes tipos de usuarios.
+El  proyecto busca desarrollar un e-commerce de electrodomésticos con el fin de generar ventas a diferentes tipos de usuarios. Se publicará un sitio web de venta de electrodomésticos hogareños para todo público. La oferta de dichos productos se ajustará con el diseño del sitio web para que cualquier persona pueda comprar los productos con facilidad y seguridad. Asimismo, se hará hincapié en que el sitio sea claro en cuanto a la información y en cuanto al diseño, lo que facilitará la experiencia del usuario al adquirir los productos ofrecidos.
 
 ## Tecnologías utilizadas
 
@@ -12,15 +12,17 @@ E-commerce de electrodomésticos desarrollado con el fin de generar ventas a dif
 
 - [Noelia Pescaretti](https://github.com/noeliapescaretti): Tengo 21 años, trabajo para Mercado Pago y estudio Programación Web Full-Stack en Digital House.
 - [Javier Villalba](https://github.com/javiervillalbaf): Desarrollador Front-end, estudiante de sistemas en la Universidad Nacional de General Sarmiento y de programación Full-stack en Digital House.
-- [Federico Torres](https://github.com/fedenn): Joven estudiante de programacion en la Universidad Nacional de Hurlingam y Digital House.
-- [Belen Toranzo](https://github.com/belutoranzo): Traductora Pública de idioma inglés, 39 años. Trabajo de traductora freelance y estudio programación full-stack en Digital House.
-- [Lautaro Villagrán](https://github.com/lautaro0804): Estudiante de programación full stack web 
+- [Federico Torres](https://github.com/fedenn): Joven estudiante de programacion en la Universidad Nacional de Hurlingham y Digital House.
+- [Belén Toranzo](https://github.com/belutoranzo): Traductora Pública de idioma inglés, 39 años. Trabaja de traductora freelance y estudio programación full-stack en Digital House.
+- [Lautaro Villagrán](https://github.com/lautaro0804): Estudiante de programación full stack web. 
 - [Gabriela Ayala](#)
 
 ## Sitios de referencia
 
-- [Mercado Libre](https://www.mercadolibre.com.ar/)
-- [Frávega](https://www.fravega.com/)
-- [Garbarino](https://www.garbarino.com/)
-- [Cetrogar](https://www.cetrogar.com.ar/)
-- [Grupo Marquez](https://grupomarquez.com.ar/)
+Elegimos los siguientes sitios de referencia por el tipo de productos ofrecidos, el público objetivo, la estética y la funcionalidad que presentan a la hora de adquirir productos similares. Se detalla a continuación, el sitio y la razón de su elección.
+
+- [Mercado Libre](https://www.mercadolibre.com.ar/): estética, funcionalidad, claridad de la información.
+- [Frávega](https://www.fravega.com/): diagramación del sitio con productos similares al proyecto.
+- [Garbarino](https://www.garbarino.com/): diagramación similar.
+- [Cetrogar](https://www.cetrogar.com.ar/): diagramación clara, productos diferenciados por categroría y presentados de forma estética y visible.
+- [Grupo Marquez](https://grupomarquez.com.ar/): diagramación de referencia de un sitio con productos similares al proyecto.
