@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    
+}
+.main-header{
+    background-color: rgba(177, 177, 194, 0.374);
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.search-bar button{
+   background-color: black;
+   color: white;
+   padding: 2px;
+   height:  35px;
+   width: 30px;
+   position: relative;
+   top: 30px;
+   right: 65px; 
+   border: none;
+}
+.bar{
+   border: none;
+   font-family: 'Poppins', sans-serif;
+   font-weight: bold;
+    width: 300px;
+    position: relative;
+    top: 30px;
+    right: 60px;
+    height: 35px;
+}

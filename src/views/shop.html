@@ -1,0 +1,108 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de compras</title>
+    <link href="/src/public/css/shop.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet"/>
+</head>
+<body>
+    <header class="main-header">
+       <div class="top-header"> 
+            <a href="home.html"><img class="logo" src="/src/public/images/logo.PNG" alt="logo casa blanca"></a>
+            <div class="search-bar">
+                <form action="/src/views/home.html" method="get">
+                 <input class="bar" type="text" name="buscador" placeholder="  Search"></type>
+                 <button class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div class="top-icons">
+            <div><i class="fa-regular fa-heart"></i>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
+        
+    </header>
+        <div class="select-header">
+            <button>Oficina</button>
+            <button>Cocina</button>
+            <button>Gaming</button>
+            <button>Led/Smart TV</button>
+            <button>Climatizacíon</button>
+            <button>Celulares</button>
+        </div>
+    <main>
+            <div class="products">
+                <article>
+                    <img src="" alt="">
+                    <h3 class="product-name">PRODUCTO1</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dignissimos in eum similique deserunt natus</p>
+                    <button class="delete"><i class="fa-solid fa-trash"></i></button>
+                </article>
+                <article>
+                    <img src="" alt="">
+                    <h3 class="product-name">PRODUCTO2</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dignissimos in eum similique deserunt natus</p>
+                    <button class="delete"><i class="fa-solid fa-trash"></i></button>
+                </article>
+                 <article>
+                     <img src="" alt="">
+                    <h3 class="product-name">PRODUCTO3</h3>
+                    <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dignissimos in eum similique deserunt natus</p>
+                    <button class="delete"><i class="fa-solid fa-trash"></i></button>
+                </article>
+            </div>
+            <div class="pay-options">
+                <form action="/src/data-base/">
+                    <input type="text" name="desc-code" placeholder="CÓDIGO DE DESCUENTO">
+                    <button type="submit">Validar</button>
+                </form>
+                <p>Subtotal</p>
+                <p>Garantia</p>
+                <p>TOTAL </p>
+                <button type="submit">PAGAR</button>
+            </div>
+            <P>Al comprar se aceptan los Términos y Condiciones
+                Copyright 2023. CASA BLANCA. Todos los derechos reservados. Las fotos e imágenes de los productos son meramente ilustrativas. Todos los productos gozan de la garantía de su fabricante o importador. La venta de cualquiera de los productos publicados está sujeta a verificación de stock. Los precios publicados son exclusivos para venta telefónica y a través de www.casablanca.net. Los precios que se visualizan actualmente incluyen IVA. Ofertas para consumidor final.</P>
+    </main>
+    <footer>
+        <a href="home.html"><img class="logo" src="/src/public/images/logo.PNG" alt="logo casa blanca"></a>
+        <div class="pay-method">
+            <p>Métodos de pago</p>
+            <ul>
+                <li>Billeteras virtuales</li>
+                <li>Tarjetas bancarias</li>
+                <li>Puntos de pago</li>
+            </ul>
+        </div>
+        <div class="info">
+            <p>Nosotros</p>
+            <ul>
+                <li>Conocenos</li>
+                <li>Nuestras sucursales</li>
+                <li>Trabaja con nosotros</li>
+                <li>Términos y condiciones</li>
+                <li>Política de privacidad</li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p>Contactanos</p>
+            <p class="email"><i class="fa-solid fa-envelope"> atencionalcliente@casablanca.com</i></p>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-solid fa-paper-plane"></i>
+        </div>
+        <div class="bank">
+            <i class="fa-brands fa-paypal"></i>
+            <i class="fa-brands fa-cc-visa"></i>
+            <i class="fa-brands fa-cc-mastercard"></i>
+            <i class="fa-brands fa-cc-amazon-pay"></i>
+            <i class="fa-brands fa-google-pay"></i>
+            <i class="fa-brands fa-apple-pay"></i>
+        </div>
+    </footer>
+</body>
+</html>
