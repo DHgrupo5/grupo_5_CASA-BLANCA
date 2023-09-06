@@ -8,40 +8,30 @@
     <title>Products</title>
 </head>
 
-<header>
-    <div class="logo">
-        <img src="/design/logo.png" alt="">
-    </div>
-
-    <div class="searchbar">
-        <form action="/home" method="GET">
-            <span><button class="lupa"><i class="fa-solid fa-magnifying-glass"></i></button></span><span><input class="searchbar2" type="text" name="search" id="search" placeholder="Buscar productos, marcas"></span>
-        </form>
-    </div>
-
-    <div class="fav-button">
-        <button type="submit"><i class="fa-light fa-heart"></i></button>
-    </div>
-
-    <div class="cart-button">
-        <button type="submit"><i class="fa-regular fa-cart-shopping"></i></button>
-    </div>
-
-    <div class="login-button">
-        <button type="submit"><i class="fa-solid fa-user"></i></button>
-    </div>
-
-    <div class="navbar">
-        <nav class="navbar">
-            <ul>
-                <li><a href="ofertas.html">Ofertas</a></li>
-                <li><a href="stores.html">Sucursales</a></li>
-                <li><a href="categories.html">Categorías</a></li>
-                <li><a href="help.html">Ayuda</a></li>
-            </ul>
-        </nav>
-    </div>
-</header>
+<header class="main-header">
+    <div class="top-header"> 
+         <a href="products.html"><img class="logo" src="/src/public/images/logo.PNG" alt="logo casa blanca"></a>
+         <div class="search-bar">
+             <form action="/src/views/products.html" method="get">
+              <input class="bar" type="text" name="buscador" placeholder="  Search"></type>
+              <button class="magnifying-glass"><i class="fa-solid fa-magnifying-glass"></i></button>
+             </form>
+         </div class="top-icons">
+         <div><i class="fa-regular fa-heart"></i>
+         <i class="fa-solid fa-cart-shopping"></i>
+         <i class="fa-solid fa-circle-user"></i>
+         </div>
+     </div>
+     
+ </header>
+     <div class="select-header">
+         <button>Oficina</button>
+         <button>Cocina</button>
+         <button>Gaming</button>
+         <button>Led/Smart TV</button>
+         <button>Climatizacíon</button>
+         <button>Celulares</button>
+     </div>
 
 <body>
     
