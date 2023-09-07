@@ -12,7 +12,7 @@
 <body>
     <header class="main-header">
        <div class="top-header"> 
-            <a href="home.html"><img src="images/logo.PNG" alt="logo casa blanca"></a>
+            <a class="logo" href="home.html"><img src="images/logo.PNG" alt="logo casa blanca"></a>
             <div class="search-bar">
                 <form action="views/home.html" method="get">
                  <input class="bar" type="text" name="buscador" placeholder="  Search"></type>
@@ -27,19 +27,38 @@
         </div>
         
     </header>
-    <main>
-        <div class="select-header">
-            <button>Oficina</button>
-            <button>Cocina</button>
-            <button>Gaming</button>
-            <button>Led/Smart TV</button>
-            <button>Climatizacíon</button>
-            <button>Celulares</button>
+    <main class="main-login">
+        <div class="form-container"> 
+            <div class="login-form">
+                <div id="login">
+                    <form id="loginForm">
+                        <label for="usuario">Usuario</label>
+                        <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+                        
+                        <label for="password">Contraseña</label>
+                        <input id="password" type="password" placeholder="Contraseña" name="password" required>
+                        
+                        <button type="submit" title="Ingresar" name="Ingresar">Login</button>
+                    </form>      
+                </div>
+                <div class="form-welcome">
+                    <div class="form-title">
+                        Bienvenido
+                    </div>
+                    <hr>
+                    <div class="pie-form">
+                        <a href="#">¿Perdiste tu contraseña?</a>
+                        <a href="#">¿No tienes Cuenta? Registrate</a>
+                        <hr>
+                        <a href="#">« Volver</a>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer class="footer">
         <div class="footer-container">
-            <a href="home.html"><img src="images/logo.PNG" alt="logo casa blanca"></a>
+            <a class="logo" href="home.html"><img src="images/logo.PNG" alt="logo casa blanca"></a>
             <div class="info">
                 <h3>Nosotros</h3>
                 <ul>
