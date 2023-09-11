@@ -26,3 +26,7 @@ Elegimos los siguientes sitios de referencia por el tipo de productos ofrecidos,
 - [Garbarino](https://www.garbarino.com/): diagramación similar.
 - [Cetrogar](https://www.cetrogar.com.ar/): diagramación clara, productos diferenciados por categroría y presentados de forma estética y visible.
 - [Grupo Marquez](https://grupomarquez.com.ar/): diagramación de referencia de un sitio con productos similares al proyecto.
+
+## Link al tablero de trabajo en Trello:
+
+https://trello.com/invite/b/X2St1WP0/ATTI7e5f0411c28ded0f420344e885c6574a1B5CB638/sprint-2-casa-blanca
