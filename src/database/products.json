@@ -1,0 +1,50 @@
+[
+    {
+       "id": 1,
+       "name": "Macbook",
+       "price": "8500",
+       "image": "macbook1.webp"
+    },
+    {
+       "id": 2,
+       "name": "Lavarropas LG",
+       "price": "1200",
+       "image": "lavarropasLG.webp"
+    },
+    {
+       "id": 3,
+       "name": "Notebook Asus",
+       "price": "4500",
+       "image": "notebookasus.webp"
+    },
+    {
+       "id": 4,
+       "name": "Notebook Dell",
+       "price": "7200",
+       "image": "notebookdellgaming.webp"
+    },
+    {
+       "id": 5,
+       "name": "Notebook HP",
+       "price": "2200",
+       "image": "notebookhppavilion.webp"
+    },
+    {
+       "id": 6,
+       "name": "Notebook Samsung",
+       "price": "9200",
+       "image": "notebooksamsunggalaxy.webp"
+    },
+    {
+       "id": 7,
+       "name": "Pava electrica Peabody",
+       "price": "6500",
+       "image": "pavaelectricaPeabody.jpg"
+    },
+    {
+       "id": 8,
+       "name": "Tv LG",
+       "price": "9230",
+       "image": "televisorLGsmart.avif"
+    }
+   ]
