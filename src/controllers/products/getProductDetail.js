@@ -1,7 +1,7 @@
 const products = require("../../database/products.json");
 
 const getProductDetail = (req, res) => {
-  const { id } = req.params.id;
+  const { id } = req.params;
   const product = products.find((elem) => elem.id == id);
   if (!product) {
     return res.send("Product not found");

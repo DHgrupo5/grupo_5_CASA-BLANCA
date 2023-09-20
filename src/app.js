@@ -12,6 +12,10 @@ server.use(express.static(path.join(__dirname, "../public")));
 server.use(morgan("dev"));
 server.set("view engine", "ejs");
 
+server.get("/", (req, res) => {
+  res.render(path.join(__dirname, "./views/products/home.ejs"));
+});
+
 server.use(userRoutes);
 server.use(productsRoutes);
 
