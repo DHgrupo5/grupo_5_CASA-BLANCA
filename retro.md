@@ -23,3 +23,30 @@
 
 ## Dejar de hacer:
 1. Wireframes de las páginas del sitio.
+
+
+# Retrospectiva Sprint 2 -18/09/2023-
+
+## Comenzar a hacer:
+
+1. Rearmar el equipo y las tareas del equipo en base a los integrantes que continúan en el curso.
+2. Establecer prioridades.
+
+## Hacer más:
+
+1. Organizar mejor los tiempos de trabajo para los sprints siguientes.
+2. Utilizar el tablero de trabajo para realizar un correcto follow-up del avance del proyecto.
+4. Comunicarnos de forma fluida y delegar tareas a otros integrantes si no llegamos.
+
+## Continuar haciendo:
+
+1. Trabajar en equipo.
+2. Comunicarnos de forma fluida.
+3. Ayudarnos entre todos a resolver problemas que van surgiendo.
+4. Pair programming para que todos podamos ver y aprender de los demás.
+
+## Hacer menos:
+-
+
+## Dejar de hacer:
+-
