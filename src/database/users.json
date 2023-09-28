@@ -1,0 +1,92 @@
+[
+    {
+        "id": 1,
+        "firstName": "José",
+        "lastName": "Hernandez",
+        "email": "joseh1992@gmail.com",
+        "password": "1123SHNkyuL",
+        "category": "customer",
+        "image": "fotodeperfil1.jpg"
+    },
+    {
+        "id": 2,
+        "firstName":"Nadia",
+        "lastName": "Quiñones",
+        "email": "nadiaquinones@hotmail.com",
+        "password": "hsd4567LMKX",
+        "category": "customer",
+        "image": "fotodeperfil2.jpg"
+    },
+    {
+        "id": 3,
+        "firstName": "Paola",
+        "lastName": "Nieva",
+        "email": "pnieva1980@gmail.com",
+        "password": "jfaYES765S",
+        "category": "customer",
+        "image":  "fotodeperfil3.jpg"
+    },
+    {
+        "id": 4,
+        "firstName": "Simón",
+        "lastName": "Ludueña",
+        "email": "ludueniasimon10@hotmail.com",
+        "password": "trsew4509",
+        "category": "customer",
+        "image": "fotodeperfil4.jpg"
+    },
+    {
+        "id": 5,
+        "firstName": "Fabián",
+        "lastName": "Vera",
+        "email": "fabivera@outlook.com",
+        "password": "HANNA7645hn",
+        "category": "admin",
+        "image": "fotodeperfil5.jpg"
+    },
+    {
+        "id": 6,
+        "firstName": "Victoria",
+        "lastName":"Goméz",
+        "email":"vickygomez15@hotmail.com",
+        "password": "JULIYSAN58946ns",
+        "category": "customer",
+        "image": "fotodeperfil6.jpg"
+    },
+    {
+        "id": 7,
+        "firstName": "Agustín",
+        "lastName": "Cadelago",
+        "email": "cadelagoagus76@gmail.com",
+        "password":"5984drsMSHXv",
+        "category":"admin",
+        "image": "fotodeperfil7.jpg"
+    },
+    {
+        "id": 8,
+        "firstName":"Belén",
+        "lastName":"Quintana",
+        "email":"quintanabelu34@hotmail.com",
+        "password":"ghjtJHSXa6982",
+        "category":"customer",
+        "image": "fotodeperfil8.jpg"
+    },
+    {
+        "id": 9,
+        "firstName": "Pablo",
+        "lastName":"Alvaréz",
+        "email": "alvarez44@outlook.com",
+        "password":"kasis685KJHB",
+        "category": "customer",
+        "image": "fotodeperfil9.jpg"
+    },
+    {
+        "id": 10,
+        "firstName": "Facundo",
+        "lastName":"Gallardo",
+        "email": "facumgallardo@gmail.com",
+        "password": "jazmin234GF",
+        "category": "admin",
+        "image": "fotodeperfil10.jpg"
+    }
+]
