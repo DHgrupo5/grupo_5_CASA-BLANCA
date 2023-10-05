@@ -12,6 +12,10 @@ server.use(express.static(path.join(__dirname, "../public")));
 server.use(morgan("dev"));
 server.set("view engine", "ejs");
 
+
+server.use(express.urlencoded({extended: false})); //transporta los datos
+server.use(express.json()); //convierte de obj a json
+
 server.get("/", (req, res) => {
   res.render(path.join(__dirname, "./views/products/home.ejs"));
 });
