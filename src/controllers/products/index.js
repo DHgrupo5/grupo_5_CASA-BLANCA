@@ -1,10 +1,12 @@
 const getAllProducts = require("./getAllProducts");
 const getProductDetail = require("./getProductDetail");
-const formCreateProduct = require("./createProductForm");
-const postNewProduct = require("./postNewProduct");
+const { formCreateProduct, postNewProduct } = require("./createProductForm");
+const editProduct = require("./editProduct");
+
 module.exports = {
   getAllProducts,
   getProductDetail,
   formCreateProduct,
-  postNewProduct
+  postNewProduct,
+  editProduct
 };

@@ -1,30 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <title>Crear Producto</title>
+    <link href="/css/login.css" rel="stylesheet">
+    <link href="/css/createProduct.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New Product</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>New Product</h1>
-    <form action="/products" method="POST">
-        <div>
-            <label for="">Title:</label>
-            <input type="text" name="title" >
+    <%- include('../partials/header.ejs') %>
+
+        <div class="centering">
+            <form action= "/products"  method="POST" class="my-form" enctype="multipart/form-data">
+
+                <div class="my-form__content">
+                    <div class="text-field">
+                        <label for="title">Titulo:</label>
+                        <input type="text" name="title" placeholder="titulo" autocomplete="off">
+                    </div>
+                    <div class="text-field">
+                        <label for="price">Precio:</label>
+                        <input type="number" name="price" placeholder="precio" autocomplete="off">
+                    </div>
+                    <div class="text-field">
+                        <label for="description">Descripcion:</label>
+                        <input type="text" name="description" placeholder="Descripcion" autocomplete="off">
+                    </div>
+                    <div class="upload">
+
+
+                        <input type="file" name="image">
+
+
+                    </div>
+                    <input type="submit" class="my-form__button" value="Agregar">
+                </div>
+
+            </form>
         </div>
-        <div>
-            <label for="">Price:</label>
-            <input type="number" name="price">
-        </div>
-        <div>
-            <label for="">Description:</label>
-            <input type="text" name="description">
-        </div>
-        <div>
-            <label for="">Image:</label>
-            <input type="file" name="image" accept="image/*">
-        </div>
-        <button type="submit">Submit</button>
-    </form>
+        <%- include('../partials/footer.ejs') %>
 </body>
+
 </html>

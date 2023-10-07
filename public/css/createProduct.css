@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&display=swap');
+
+:root {
+  --primary: #625BFE;
+  --primary-hover: #7771f7;
+  --text: #383740;
+  --text-lighter: #71707d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Mulish;
+}
+
+.divider {
+  display: flex;
+  flex-direction: row;
+  color: var(--text-lighter);
+  gap: 16px;
+  align-items: center;
+}
+
+.centering {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.my-form {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  gap: 16px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px var(--aura);
+  min-width: 280px;
+  max-width: 500px;
+  width: 100%;
+  padding: 32px;
+  border: 2px solid #000000;
+}
+
+.my-form__button {
+  background-color: #3B5998;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  line-height: 50px;
+  outline: none;
+  font-size: 18px;
+  letter-spacing: .025em;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 800;
+  min-height: 50px;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .15);
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+
+.my-form__button:hover {
+  cursor: pointer;
+  background-color: #000000;
+  color: #FFFFFF;
+}
+
+.upload input[type="file"]::file-selector-button {
+  background-color: #3B5998;
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+  flex-direction: center;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 800;
+  min-height: 50px;
+  min-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .15);
+}
+
+.text-field input {
+  color: var(--text-lighter);
+  font-size: 16px;
+  font-weight: 500;
+  max-width: 100%;
+  width: 100%;
+  border: 1px solid var(--text-lighter);
+  height: 50px;
+  color: var(--text);
+  letter-spacing: .03rem;
+  background-color: transparent;
+  outline: none;
+  transition: .25s;
+  border-radius: 8px;
+  text-indent: 20px;
+  margin-top: 8px;
+}
+
+.my-form__content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
