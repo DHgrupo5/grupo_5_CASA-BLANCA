@@ -4,6 +4,8 @@ const morgan = require("morgan");
 const userRoutes = require("./routes/userRoutes");
 const productsRoutes = require("./routes/productRoutes");
 const server = express();
+var methodOverride = require('method-override')
+
 
 server.use(express.static(path.join(__dirname, "../public")));
 
@@ -13,10 +15,12 @@ server.set("view engine", "ejs");
 
 server.use(express.urlencoded({ extended: false })); //transporta los datos
 server.use(express.json()); //convierte de obj a json
+server.use(methodOverride('_method'));
 
 server.get("/", (req, res) => {
   res.render(path.join(__dirname, "./views/products/home.ejs"));
 });
+
 
 server.use(userRoutes);
 server.use(productsRoutes);
