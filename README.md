@@ -13,6 +13,7 @@ El  proyecto busca desarrollar un e-commerce de electrodomésticos con el fin de
 - [Noelia Pescaretti](https://github.com/noeliapescaretti): Tengo 21 años, trabajo para Mercado Pago y estudio Programación Web Full-Stack en Digital House.
 - [Javier Villalba](https://github.com/javiervillalbaf): Desarrollador Front-end, estudiante de sistemas en la Universidad Nacional de General Sarmiento y de programación Full-stack en Digital House.
 - [Belén Toranzo](https://github.com/belutoranzo): Traductora Pública de idioma inglés, 39 años. Trabaja de traductora freelance y estudia programación full-stack en Digital House.
+- [Rubis Gonzalez](https://github.com/rubisgonzalez): 23 años, estudiante de Lic. en sistemas y de programación Web Full-Stack.
 
 ## Sitios de referencia
 
