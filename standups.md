@@ -1,7 +1,6 @@
-# Standups
+# Standups sprint 3
 
 # 1 
-
 * Asignamos tareas en base a los integrantes que quedamos en el equipo.
 * Debate sobre el formulario de creación de nuevos productos. Decidimos preguntar a profesores.
 
@@ -23,3 +22,28 @@
 * Todo funcionando OK.
 * Falta form de creación de productos. Se hace directo con funcionalidad todo junto.
 * Archivo retro y standups, listos.
+
+
+# Standups sprint 4
+
+# 1
+* Asignación de tareas y presentación de nuevos integrantes del equipo.
+* Compartimos proyecto, github y tablero de trabajo con los integrantes nuevos.
+* Definimos algunas tareas para la entrega.
+* Armado de tablero de trabajo con las tareas a realizar -> Belu.
+
+# 2
+* Archivos JSON de productos y usuarios -> Noe.
+* Form create & delete products -> Rubis.
+* CRUD casi listo.
+
+# 3
+* Form create & delete listos.
+* Faltan vistas dinámicas.
+* Armado de archivos retro y standups.
+
+# 4
+* Faltan: vistas dinámicas, form edit products + funcionalidad.
+* CRUD casi listo.
+* Archivos retro y standups actualizados.
+* Readme actualizado.

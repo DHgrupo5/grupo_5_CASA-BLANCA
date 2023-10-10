@@ -13,6 +13,7 @@ El  proyecto busca desarrollar un e-commerce de electrodomésticos con el fin de
 - [Noelia Pescaretti](https://github.com/noeliapescaretti): Tengo 21 años, trabajo para Mercado Pago y estudio Programación Web Full-Stack en Digital House.
 - [Javier Villalba](https://github.com/javiervillalbaf): Desarrollador Front-end, estudiante de sistemas en la Universidad Nacional de General Sarmiento y de programación Full-stack en Digital House.
 - [Belén Toranzo](https://github.com/belutoranzo): Traductora Pública de idioma inglés, 39 años. Trabaja de traductora freelance y estudia programación full-stack en Digital House.
+- [Rubis Gonzalez](https://github.com/rubisgonzalez): 23 años, estudiante de Lic. en sistemas y de programación Web Full-Stack.
 
 ## Sitios de referencia
 
@@ -26,8 +27,14 @@ Elegimos los siguientes sitios de referencia por el tipo de productos ofrecidos,
 
 ## Link al tablero de trabajo en Trello:
 
+# Tablero Sprint 1:
+https://trello.com/b/LUaAWXob/equipo-5-sprint-1
+
+# Tablero Sprint 2:
 https://trello.com/invite/b/X2St1WP0/ATTI7e5f0411c28ded0f420344e885c6574a1B5CB638/sprint-2-casa-blanca
 
 # Tablero Sprint 3:
-
 https://trello.com/b/fqRfha7A/sprint-3
+
+# Tablero Sprint 4:
+https://trello.com/b/g6xpF75n/sprint-4

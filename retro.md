@@ -50,3 +50,31 @@
 
 ## Dejar de hacer:
 -
+
+# Retrospectiva Sprint 3 -27/09/2023-
+
+## Comenzar a hacer:
+
+1. Rearmar el equipo y las tareas del equipo en base a los dos nuevos integrantes que se sumaron para el último sprint.
+2. Compartir tablero, github y proyecto a los integrantes nuevos.
+
+
+## Hacer más:
+
+1. Organizar mejor los tiempos de trabajo para los sprints siguientes.
+2. Follow-up del avance del proyecto.
+4. Comunicarnos de forma fluida y delegar tareas a otros integrantes si no llegamos.
+5. CRUD.
+
+## Continuar haciendo:
+
+1. Trabajar en equipo.
+2. Comunicarnos de forma fluida.
+3. Ayudarnos entre todos a resolver problemas que van surgiendo.
+4. Pair programming para que todos podamos ver y aprender de los demás.
+
+## Hacer menos:
+1. Vistas/html.
+
+## Dejar de hacer:
+-
