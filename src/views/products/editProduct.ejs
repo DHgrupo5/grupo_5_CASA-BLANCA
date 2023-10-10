@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Crear Producto</title>
+    <link href="/css/login.css" rel="stylesheet">
+    <link href="/css/createProduct.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <%- include('../partials/header.ejs') %>
+
+        <div class="centering">
+            
+            <form action= "/products/<%=id%>/edit?_method=PUT"  method="POST" class="my-form" >
+                <h1> Modificar producto: <%=id%> </h1>
+                <div class="my-form__content">
+                    <div class="text-field">
+                        <label for="title">Modificar titulo:</label>
+                        <input type="text" name="title" placeholder="" autocomplete="off">
+                    </div>
+                    <div class="text-field">
+                        <label for="price">Modificar precio:</label>
+                        <input type="number" name="price" placeholder="" autocomplete="off">
+                    </div>
+                    <div class="text-field">
+                        <label for="description">Modificar descripcion:</label>
+                        <input type="text" name="description" placeholder="" autocomplete="off">
+                    </div>
+                    <div class="upload">
+
+
+                        <input type="file" name="image">
+
+
+                    </div>
+                </div>
+                <button type="submit" class="my-form__button" value="modificar" >Aceptar</button>
+
+            </form>
+        </div>
+        <%- include('../partials/footer.ejs') %>
+</body>
+
+</html>
